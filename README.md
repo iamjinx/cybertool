@@ -2,7 +2,7 @@
 # CYBERTOOL
 Cybertool is a tool to Generate Strong Passwords.
 
-It can also Convert Normal password to a Strong passwords.
+It can also Convert Normal password to a Strong password.
 
 ## Installation
 Follow below steps to install CYBERTOOL.
