@@ -1,5 +1,3 @@
-# cybertool
-
 # CYBERTOOL
 Cybertool is a tool to Generate Strong Passwords.
 
@@ -25,13 +23,12 @@ To use the tool follow Instruction below.
 1. Go the the Cybertool folder inside terminal.
 
 ```bash
- cd gsurl
+ cd cybertool
 
 ```
 2. Next run below code.
 
 ```python
- python gsurl.py
+ python cybertool.py
 
 ```
-TELEGRAM ID: @iamjinnx
