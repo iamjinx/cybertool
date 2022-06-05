@@ -1,3 +1,4 @@
+
 # CYBERTOOL
 Cybertool is a tool to Generate Strong Passwords.
 
@@ -32,3 +33,16 @@ To use the tool follow Instruction below.
  python cybertool.py
 
 ```
+3. Choose option 1 to Generate a password.
+
+![Generate](img/generate.png)
+
+4. Else choose option 2 to Convert a Normal password into a Strong password.
+
+![Convert](img/convert.png)
+
+## License
+
+©iamjinx - 2021 Ltd.
+
+TELEGRAM ID: @iamjinnx
