@@ -43,6 +43,6 @@ To use the tool follow Instruction below.
 
 ## License
 
-©iamjinx - 2021 Ltd.
+©iamjinx - 2022 Ltd.
 
 TELEGRAM ID: @iamjinnx
