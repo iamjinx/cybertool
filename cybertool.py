@@ -1,11 +1,17 @@
+# - > CYBERTOOL is a Password Generating and converting tool.
+# - > Tool created by @iamjinx
+
+import os
 import random
 import string
 import colorama
 from colorama import *
 colorama.init(autoreset=True)
 
+os.system('cls||clear')
+
 List = (('s', '$'), ('S', '$'), ('and', '&'), ('a', '@'), ('o', '0'), ('O', '0'),
-        ('i', '1'), ('I', '|'), ('A', '4'), ('H', '#'), ('h', '#'), ('r', '₹'), ('R', '₹'))
+        ('i', '1'), ('I', '|'), ('A', '4'), ('H', '#'), ('h', '#'), ('r', '₹'), ('R', '₹'), ('E', '3'))
 
 
 def passgen():
@@ -45,7 +51,6 @@ if __name__ == '__main__':
     print(Style.BRIGHT+Fore.WHITE +
           "\n1. Generate password          ")
     print(Style.BRIGHT+Fore.WHITE+"2. Convert to strong password ")
-    print(Style.BRIGHT+Fore.WHITE+"X. Exit                       ")
 
     print(f"{Fore.WHITE+Back.GREEN}\n›› Choose an option ", end=' ')
     user_opt = input()
@@ -61,10 +66,8 @@ if __name__ == '__main__':
             secpass = consecpass(user)
             print(f"{Fore.WHITE+Back.GREEN}\n›› Your Secured Password : ", end=' ')
             print(f"{Style.BRIGHT}{secpass}\n")
-        elif (user_opt == 'x') or (user_opt == 'X'):
-            exit()
         else:
-            print(f'{Fore.WHITE+Back.RED}›› Invalid Option \n')
+            print(f'{Fore.WHITE+Back.RED}\n›› Invalid Option \n')
             exit()
     except ValueError:
-        print(f'{Fore.WHITE+Back.RED}›› Invalid Input! \n')
+        print(f'{Fore.WHITE+Back.RED}\n›› Invalid Input! \n')
