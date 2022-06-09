@@ -60,12 +60,14 @@ if __name__ == '__main__':
             print(
                 f"{Fore.WHITE+Back.GREEN}\n›› Your generated password : ", end=' ')
             print(f"{Style.BRIGHT}{x}\n")
+            print(Fore.WHITE + Back.BLUE +' THANKS FOR USING OUR TOOL\n\n')
         elif int(user_opt) == 2:
             print(Fore.WHITE+Back.RED+"\n›› Enter password : ", end=' ')
             user = input()
             secpass = consecpass(user)
             print(f"{Fore.WHITE+Back.GREEN}\n›› Your Secured Password : ", end=' ')
             print(f"{Style.BRIGHT}{secpass}\n")
+            print(Fore.WHITE + Back.BLUE +' THANKS FOR USING OUR TOOL\n\n')
         else:
             print(f'{Fore.WHITE+Back.RED}\n›› Invalid Option \n')
             exit()
