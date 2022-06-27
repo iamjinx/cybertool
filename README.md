@@ -1,46 +1,35 @@
-
 # CYBERTOOL
 Cybertool is a tool to Generate Strong Passwords.
 
 It can also Convert Normal password to a Strong password.
 
-## Installation
-Follow below steps to install CYBERTOOL.
+This tool also can check pwned / leaked passwords using an API.
 
-Open Terminal and paste & run below codes one by one.
+## Usage
+**Note :** Python 3 needed. Tested on Windows, Ubuntu, Termux.
 
-Note: Python 3 is needed to use this Tool.
-
+Clone this repository. Go to the Cybertool folder & run the python script.
 ```bash
  git clone https://github.com/iamjinx/cybertool.git
 
  cd cybertool
 
- pip  install -r requirements.txt
-
-```
-## Usage
-To use the tool follow Instruction below.
-1. Go the the Cybertool folder inside terminal.
-
-```bash
- cd cybertool
-
-```
-2. Next run below code.
-
-```python
  python cybertool.py
-
 ```
-3. Choose option 1 to Generate a password.
 
-![Generate](img/generate.png)
+Choose option 1 to Generate a password.
 
-4. Else choose option 2 to Convert a Normal password into a Strong password.
+![Generate](img/generate.jpg)
 
-![Convert](img/convert.png)
+Choose option 2 to Convert a Normal password into a Strong password.
 
+![Convert](img/convert.jpg)
+
+Choose option 3 to check pwned / leaked passwords.
+
+![Convert](img/chkpwn1.jpg)
+
+![Convert](img/chkpwn2.jpg)
 ## License
 
 ©iamjinx - 2022 Ltd.
