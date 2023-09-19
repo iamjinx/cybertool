@@ -19,17 +19,17 @@ Clone this repository. Go to the Cybertool folder & run the python script.
 
 Choose option 1 to Generate a password.
 
-![Generate](img/generate.jpg)
+![Generate](/img/generate.jpg)
 
 Choose option 2 to Convert a Normal password into a Strong password.
 
-![Convert](img/convert.jpg)
+![Convert](/img/convert.jpg)
 
 Choose option 3 to check pwned / leaked passwords.
 
-![Convert](img/chkpwn1.jpg)
+![Convert](/img/chkpwn1.jpg)
 
-![Convert](img/chkpwn2.jpg)
+![Convert](/img/chkpwn2.jpg)
 ## License
 
 ©iamjinx - 2022 Ltd.
