@@ -26,6 +26,9 @@ def passgen():
     random.shuffle(charslist)
     print(f"{ERR}\n›› Enter the length of password : {RESET}", end=' ')
     pwlen = int(input())
+    if pwlen < 8 :
+            print(f'{ERR}\n›› Password Lenght must be 8 or Higher {RESET}\n')
+            exit()
 
     for i in range(pwlen):
         x = random.choice(charslist)
